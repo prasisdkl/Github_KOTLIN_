@@ -29,6 +29,6 @@ class Drinks(val name: String, val shop: String, val price : Int  )
 
     fun extraCup()
     {
-        println("$name -Extra cup is here")
+        println("$name --Extra cup is here")
     }
 }

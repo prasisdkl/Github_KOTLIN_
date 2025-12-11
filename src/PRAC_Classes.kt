@@ -1,7 +1,7 @@
 fun main(){
 
     val tea = Drinks("tea","blackJACK",200)
-    val coffee = Drinks("coffee", "chiyaaGhar", 200)
+    val coffee = Drinks("coffee", "chiyaGhar", 200)
 
     println(tea.name)
     println(tea.shop)
@@ -29,6 +29,6 @@ class Drinks(val name: String, val shop: String, val price : Int  )
 
     fun extraCup()
     {
-        println("$name --Extra cup is here")
+        println("$name -Extra cup is here")
     }
 }

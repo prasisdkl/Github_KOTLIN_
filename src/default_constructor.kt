@@ -7,7 +7,7 @@ fun main(){
 
 }
 
-class Calculator(){
+class Calculator{
 
     lateinit var message: String
     fun add(a: Int, b:Int): Int{

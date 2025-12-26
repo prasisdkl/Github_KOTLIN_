@@ -14,6 +14,7 @@ fun main(){
 
     tea.addMoreSUGAR()
     coffee.extraCup()
+    tea.extraCup()
 
 
 }

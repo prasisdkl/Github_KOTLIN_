@@ -1,9 +1,8 @@
-import java.util.Locale
 import java.util.Locale.getDefault
 
 fun main(){
 
-    var vlog = Food("Pizza",800)
+    val vlog = Food("Pizza",800)
 
     println(vlog.name)
     println(vlog.price)
